@@ -158,7 +158,28 @@ header{
   position: relative;
   bottom: 287px;
   left: 45px;
+  transition:background .3s;
 
+}
+
+.banner1 button:hover
+{
+  background: #1ca6cc 93.7%;
+}
+
+#fixed-btn{
+  background: linear-gradient(105.49deg, #004987 47.63%, #38a6c4 93.7%);
+  width: 141px;
+  height: 48px;
+  z-index: 10;
+  border: none;
+ 
+  border-radius: 10px;
+  color: white;
+  rotate: -90deg;
+  left: 1441px;
+  top: 252px;
+  position: fixed;
 }
 .pics{
   display:inline
@@ -346,8 +367,14 @@ width: 490px;
     position: relative;
     bottom: 10px;
     left: 0;
+    transition: background .7s;
 
 }
+.lastdiv button:hover{
+  background: #1ca6cc;
+
+}
+
 
 .foot1{
   height: 40px;
@@ -431,6 +458,13 @@ footer{
 .footer-flex ul>li>a{
  color: white;
  font-weight: lighter;
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.footer-flex ul>li>a:hover{
+
+  text-decoration:underline;
 }
 .last-footer{
   position: relative;
@@ -439,6 +473,8 @@ footer{
   width: 695px;
   margin: auto;
 }
+
+
 #logo-last{
   top: 80px;
   top: 70px;
@@ -460,3 +496,36 @@ footer{
   top: 688px;
 
 }
+.lasticon{
+  display: flex;
+  position: relative;
+  top: 630px;
+  margin-left: 230px;
+}
+.img-bg{
+  padding-left: 32px;
+  background-image: url(images/fb\ back.svg);
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 27px;
+
+}
+
+.buttonmoreondryskin{
+  background-color: white;
+  border-color: #1ca6cc;
+  border-width: 1px;
+  color: #004987;
+  width: 180px;
+  height: 36px;
+  border-radius: 38px;
+  transition: background-color .6;
+}
+
+.buttonmoreondryskin:hover{
+  background-color: #1ca6cc;
+  color: white;
+  border: none;
+}
+
+
